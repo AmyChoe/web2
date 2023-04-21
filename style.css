@@ -18,6 +18,9 @@ ol{
     margin:0;
     padding:20px;
 }
+ol a:hover{
+    color:rgb(200, 200, 200);
+}
 #grid{
     display:grid;
     grid-template-columns: 150px 1fr;
@@ -27,6 +30,9 @@ ol{
 }
 #grid #article{
     padding-left:25px;
+}
+#grid #article a:hover{
+    color:rgb(200, 200, 200);
 }
 @media(max-width:800px){
     #grid{
